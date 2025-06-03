@@ -1,0 +1,106 @@
+.footer {
+  background-color: #e5f4ff;
+  padding: 20px 12px 0 12px;
+  font-family: Arial, sans-serif;
+  color: #2176ae;
+
+  .footer-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 32px;
+      flex-wrap: wrap;
+
+      .footer-left {
+        display: flex;
+        flex-direction: column;
+        max-width: 55%;
+
+        .header-logo {
+          display: flex;
+          align-items: center;
+          margin-bottom: 8px;
+        }
+
+        .logo-image {
+          height: 80px;
+          margin-right: 16px;
+        }
+
+        .logo-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-top: 20px;
+          margin-left: -15px;
+        }
+
+        .logo-text p:first-child {
+          font-size: 22px;
+          font-weight: bold;
+          margin: 0;
+          color: #1c597f;
+        }
+
+        .logo-text p:last-child {
+          font-size: 20px;
+          font-weight: 600;
+          margin: 0;
+          color: #4a6a7c;
+        }
+
+        .footer-desc {
+          max-width: 450px;
+          margin-top: 18px;
+          margin-left: 30px;
+          font-size: 17px;
+          color: #2176ae;
+          line-height: 1.4;
+          text-align: justify;
+        }
+      }
+
+      .footer-right {
+        max-width: 40%;
+        margin-top: 20px;
+
+        h4 {
+          font-size: 22px;
+          font-weight: bold;
+          margin: 0;
+          color: #1c597f;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 17px;
+          margin: 8px 0;
+          color: #2176ae;
+          line-height: 1.4;
+        }
+
+        strong {
+          color: #2176ae;
+        }
+
+        a {
+          color: #2176ae;
+          text-decoration: underline;
+          word-break: break-all;
+        }
+      }
+    }
+    .footer-bottom {
+      margin-top: 10px;
+      padding: 16px 0 12px 0;
+      text-align: center;
+      font-size: 16px;
+      background: transparent;
+      border-top: 2px solid #b8e0fa;
+    }
+  }
+}
