@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import BieuTruong from "../../assets/Logo/[_] biểu trưng final.png";
+// import BieuTruong from "../../assets/Logo/[_] biểu trưng final.png";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="footer-left">
             <div className="header-logo">
               <img
-                src={BieuTruong}
+                src={`${process.env.PUBLIC_URL}/assets/Logo/[_] biểu trưng final.png`}
                 alt="BieuTrungDoan"
                 className="logo-image"
               />
