@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import SearchOutlined from "@ant-design/icons/SearchOutlined";
-import BieuTrungDoan from "../../assets/Logo/[_] biểu trưng final.png";
+// import BieuTrungDoan from "../../assets/Logo/[_] biểu trưng final.png";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header-left">
           <div className="header-logo">
             <img
-              src={BieuTrungDoan}
+              src={`${process.env.PUBLIC_URL}/assets/Logo/[_] biểu trưng final.png`}
               alt="BieuTrungDoan"
               className="logo-image"
             />

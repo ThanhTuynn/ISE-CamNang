@@ -1,22 +1,22 @@
-import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
-import HomePage from "../pages/HomePage/HomePage";
+// import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
+// import HomePage from "../pages/HomePage/HomePage";
 import LuatThanhNien from "../pages/LuatThanhNien/LuatThanhNien";
 import DieuLeDoan from "../pages/DieuLeDoanTNCS/DieuLeDoanTNCS";
-import TheThucVanBan from "../pages/TheThucVanBan/TheThucVanBan";
+import TheThucVanBan from "../pages/VanBan/VanBan";
 import NghiepVuDoan from "../pages/NghiepVuDoan/NghiepVuDoan";
 import NghiQuyetCongNghe from "../pages/NghiQuyetCongNghe/NghiQuyetCongNghe";
 
 const routes = [
-  {
-    path: "*",
-    page: NotFoundPage,
-    isShowHeader: true,
-  },
-  {
-    path: "/",
-    page: HomePage,
-    isShowHeader: true,
-  },
+  // {
+  //   path: "*",
+  //   page: NotFoundPage,
+  //   isShowHeader: true,
+  // },
+  // {
+  //   path: "/",
+  //   page: HomePage,
+  //   isShowHeader: true,
+  // },
   {
     path: "/van-ban/luat-thanh-nien-2020",
     page: LuatThanhNien,
