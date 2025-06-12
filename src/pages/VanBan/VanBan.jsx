@@ -47,7 +47,7 @@ const VanBan = () => {
           borderRadius: 16,
           boxShadow: "0 4px 24px rgba(0,0,0,0.10)",
           padding: 32,
-          maxHeight: 800,
+          maxHeight: 1000,
           overflowY: "auto",
           scrollBehavior: "smooth",
         }}
