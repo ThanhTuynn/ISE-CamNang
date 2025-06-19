@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header-left">
           <div className="header-logo">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/Logo/[_] biểu trưng final.png`}
+              src={`${process.env.PUBLIC_URL}/assets/Logo/bieutrungfinal.png`}
               alt="BieuTrungDoan"
               className="logo-image"
             />

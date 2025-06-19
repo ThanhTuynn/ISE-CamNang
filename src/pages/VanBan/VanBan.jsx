@@ -64,7 +64,7 @@ const VanBan = () => {
               }}
             >
               <img
-                src={`${process.env.PUBLIC_URL}/assets/VanBan/${pageData.page}/${img}`}
+                src={`/assets/VanBan/${pageData.page}/${img}`}
                 alt={`Trang ${idx + 1}`}
                 style={{
                   width: "100%",
