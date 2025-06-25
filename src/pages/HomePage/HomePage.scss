@@ -1,7 +1,7 @@
 .homepage {
   min-height: 100vh;
   background: #fdf9f3;
-  // background-image: url("../../assets/Logo/TrongDong.png");
+  background-image: url("../../../public/assets/Logo/TrongDong.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,7 +14,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0.7); 
+    background: rgba(255, 255, 255, 0.7);
     z-index: 0;
     pointer-events: none;
   }
@@ -37,7 +37,7 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: 24px;
-    color:  #be8228;
+    color: #be8228;
   }
 
   .homepage-grid {
@@ -59,7 +59,7 @@
   }
 
   .homepage-item-img {
-    width:  160px;
+    width: 160px;
     height: 160px;
     object-fit: contain;
     margin-bottom: 12px;
